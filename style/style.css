@@ -124,7 +124,7 @@
 .parteFotos_2{
     justify-content: center;
     align-items: center;
-    height: 80%;
+    height: 65%;
     margin-top: 70px;
     margin-left: 60px;
     display: grid;
@@ -140,4 +140,71 @@
 .num5{
     grid-row: 2/3;
     grid-column: 1/2; 
+}
+
+.JUST-DEFAULT{
+    background:#4f5b61;
+    padding:80px 0;
+    color:white;
+}
+
+.contenedor{
+    width:80%;
+    margin:auto;
+}
+
+.default-content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:60px;
+}
+
+.text-justDefault{
+    width:50%;
+}
+
+.text-justDefault h2{
+    font-weight:300;
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+
+.text-justDefault p{
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.boton-visit{
+    background:transparent;
+    border:2px solid #2c3e46;
+    color:white;
+    padding:12px 25px;
+    cursor:pointer;
+}
+
+
+
+.twitter {
+    background-color: #4FC3F7;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 20%;
+    gap: 15px;
+}
+
+.ft-twitter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ft-twitter img {
+    align-self: flex-end;
+}
+
+.twitter p span {
+    font-size: 1.5rem;
 }
